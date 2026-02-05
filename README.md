@@ -44,7 +44,7 @@ These are the key features of my project:
 
 To view the full template of the report, please refer to the documentation below:
 
- - **[Template_of_Report](example_report/template_report)**
+- **[Template_of_Report](example_report/template_report.pdf)**
 
 
 ## Setup Instructions
