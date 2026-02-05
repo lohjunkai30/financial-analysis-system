@@ -1,7 +1,7 @@
 # Automated Financial Data Scraper & Analysis System
 
 ## Project Description
-This project utilises SQL databases and Python modules to create an automated financial analysis system that extracts stock market data, perform technical analysis (Relating to the "Golden Cross Strategy"), and generates a summarized investment report of your desired stocks in Word format.
+I utilised SQL databases and Python modules to create an automated financial analysis system that extracts stock market data, perform technical analysis (Relating to the "Golden Cross Strategy"), and generates a summarized investment report of your desired stocks in Word format.
 
 
 ## Tech Stack
