@@ -25,6 +25,11 @@ These are the key features of my project:
 
 2. Algorithmic Logic: Developed a custom analysis engine that generates "Buy/Hold/Sell" recommendations through a decision matrix that references Confluence Trading Strategies and the "Golden Cross Strategy". (Refer to "analysis.py")
 
+3. Strategic Documentation: For a detailed breakdown of the indicator thresholds used as well a visual of the decision matrix used, please refer to the documentation below:
+
+    [Confluence trading indicators and decision matrix (PDF)] (Confluence trading indicators and decision matrix.pdf)
+
+
 3. Data Visualisation: Integrated **Matplotlib** to generate trend charts from processed DataFrames.
 
 **Dynamic Reporting:** 
