@@ -16,7 +16,7 @@ This project utilises SQL databases and Python modules to create an automated fi
 These are the key features of my project:
 
 **ETL** 
-1. Extracton of Data: Utilisation of yfinance module to extract real-time market data from Yahoo Finance. 
+1. Extracton of Data: Utilisation of yfinance module to extract real-time market data from Yahoo Finance. Currently, it is programmed to extract seven different stocks. (Apple, Amazon, Microsoft, Google, Nvidia, Tesla and AMD)
 
 2. Loading of Data: The raw data is loaded into a PostgreSQL (pgadmin4) database ensuring data integrity for further analysis. (Refer to "scraping.py")
 
@@ -27,15 +27,19 @@ These are the key features of my project:
 
 3. Strategic Documentation: For a detailed breakdown of the indicator thresholds used as well a visual of the decision matrix used, please refer to the documentation below:
 
-        - **[Decision_Matrix (PDF)](Decision_Matrix.pdf)**
+    - **[Decision_Matrix (PDF)](Decision_Matrix.pdf)**
 
+4. Data Visualisation: Integrated **Matplotlib** to generate trend charts from processed DataFrames. The picture below shows an example of the generated charts:
 
-3. Data Visualisation: Integrated **Matplotlib** to generate trend charts from processed DataFrames.
+![Generated Charts](example_report/AAPL_report.png)
+[Refer to this link for the full example_report folder](example_report)
 
 **Dynamic Reporting:** 
 1. Modularisation: Programme operates through a centralised exeuction script that bridges the ETL and analysis script. (Refer to "masterscript.py")
 
-2. Document Synthesis: Utilises **python-docx** to programmatically generate reports, embed visuals such as charts and insert analysis from the Quantitative Analysis Engine into a final Word report.
+2. Document Synthesis: Utilises **python-docx** to programmatically generate reports, embed visuals such as charts and insert analysis from the Quantitative Analysis Engine into a final Word report. To view the full template of the report, please refer to the documentation below:
+
+    - **[Template_of_Report](example_report/template_report)
 
 
 ## Setup Instructions
