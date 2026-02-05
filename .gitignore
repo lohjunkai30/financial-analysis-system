@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Project Specific
+reports/
+misc materials/
+
+# Mac System Files
+.DS_Store
+
+# Office Temp Files
+~$*
