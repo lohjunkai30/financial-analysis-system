@@ -56,6 +56,7 @@ To view the full template of the report, please refer to the documentation below
 
 ## Project Motivation and Background
 This project is my first full-stack integration of Python and SQL. As an incoming Business Analytics Student with a focus on finance, I developed this project to bridge the gap between:
+
 **1. My theoretical knowledge of both languages.** I had attained certifications for both languages separately through practicing and applying my theoretical knowledge to sample/engineered data/problems.
 
 **2. Practical application of my knowledge.** I realised I should put apply my theoretical knowledge for a purpose. I had always wanted to learn more about metrics/logic for stock analysis which I felt would be a useful application of Python analytical modules and SQL databases.
