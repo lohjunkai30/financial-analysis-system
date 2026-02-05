@@ -27,7 +27,7 @@ These are the key features of my project:
 
 3. Strategic Documentation: For a detailed breakdown of the indicator thresholds used as well a visual of the decision matrix used, please refer to the documentation below:
 
-    [Decision_Matrix (PDF)](Decision_Matrix.pdf)
+        - **[Decision_Matrix (PDF)](Decision_Matrix.pdf)**
 
 
 3. Data Visualisation: Integrated **Matplotlib** to generate trend charts from processed DataFrames.
@@ -47,24 +47,24 @@ These are the key features of my project:
 
 ## Project Motivation and Background
 This project is my first full-stack integration of Python and SQL. As an incoming Business Analytics Student with a focus on finance, I developed this project to bridge the gap between:
-     **1. My theoretical knowledge of both languages.** I had attained certifications for both languages separately through practicing and applying my theoretical knowledge to sample/engineered data/problems.
+**1. My theoretical knowledge of both languages.** I had attained certifications for both languages separately through practicing and applying my theoretical knowledge to sample/engineered data/problems.
 
-     **2. Practical application of my knowledge.** I realised I should put apply my theoretical knowledge for a purpose. I had always wanted to learn more about metrics/logic for stock analysis which I felt would be a useful application of Python analytical modules and SQL databases.
+**2. Practical application of my knowledge.** I realised I should put apply my theoretical knowledge for a purpose. I had always wanted to learn more about metrics/logic for stock analysis which I felt would be a useful application of Python analytical modules and SQL databases.
 
 ## Key Takeaways
-    **1. Full-Stack Architecture:** This project alllowed me to apply my knowledge to something tangible and applicable whilie successfully achieving a level of full-stack development through bridging Python Logic with PostgreSQL database using **SQLAlchemy**.
+**1. Full-Stack Architecture:** This project alllowed me to apply my knowledge to something tangible and applicable whilie successfully achieving a level of full-stack development through bridging Python Logic with PostgreSQL database using **SQLAlchemy**.
 
-    **2. Dynamic Data Engineering:** I scaled my use of **Pandas** and **Matplotlib** from small, "clean" datasets to live, high-volume market data. This was also where I applied my finance research on confluence trading to produce a simple analysis logic from the data for actionable insights.
+**2. Dynamic Data Engineering:** I scaled my use of **Pandas** and **Matplotlib** from small, "clean" datasets to live, high-volume market data. This was also where I applied my finance research on confluence trading to produce a simple analysis logic from the data for actionable insights.
 
-    **3. Document Automation:** I expanded the project scope to include automated reporting using **python-docx**. Through automating the reports, I have learnt the modality of automation modules as well as their methods of implementation.
+**3. Document Automation:** I expanded the project scope to include automated reporting using **python-docx**. Through automating the reports, I have learnt the modality of automation modules as well as their methods of implementation.
 
-    **4. Version Control and Repository Management:** This was my first project that I uploaded to **GitHub** and was able to learn and understand the Git Workflow (Stage, Commit, Push) which also allowed me to review back prior versions of code. I also learnt to use **.gitignore** and **.env** to protect sensitive environment veriables while allowing for public collaboration on Github
+**4. Version Control and Repository Management:** This was my first project that I uploaded to **GitHub** and was able to learn and understand the Git Workflow (Stage, Commit, Push) which also allowed me to review back prior versions of code. I also learnt to use **.gitignore** and **.env** to protect sensitive environment veriables while allowing for public collaboration on Github
 
 ## Improvements
 I have several improvements to this project that I intend to implement down the road as I further upskill myself:
 
-    **1. Improving the Analysis Formula:** The ones used in the current version are basic indicators as I am still experimenting with the formula and script logic. I look to adding other indicators such as "Relative Strength Index" and "Days since Cross".
+**1. Improving the Analysis Formula:** The ones used in the current version are basic indicators as I am still experimenting with the formula and script logic. I look to adding other indicators such as "Relative Strength Index" and "Days since Cross".
 
-    **2. Improving Report Automation:** I want to take it a step further by automating that process, setting a daily timestamp for which the code will automatically run and generate the report.
+**2. Improving Report Automation:** I want to take it a step further by automating that process, setting a daily timestamp for which the code will automatically run and generate the report.
 
-    **3. Web Dashboard:** While I intend to develop a more robust front-end such as a Dashboard to provide a more comprehensive analysis of the data.
+**3. Web Dashboard:** While I intend to develop a more robust front-end such as a Dashboard to provide a more comprehensive analysis of the data.
