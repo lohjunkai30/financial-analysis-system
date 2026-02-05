@@ -8,7 +8,6 @@ from docx.shared import Inches
 from dotenv import load_dotenv
 
 # 1. Database Connection
-# Replace with your actual password
 #DB_URL = "postgresql://postgres:Password335C@localhost:5432/python_finance_project"
 load_dotenv()
 DB_URL = os.getenv("DB_URL")
@@ -42,7 +41,7 @@ def run_analysis(symbol, document, target_dir):
     df["crossover"] = df["signal"].diff()
     crosses = df[(df["crossover"] !=0) & (df.index != df.index[0])].copy()
 
-    # 3d. Obtaining the report data
+    # 3d. Custom Decision Engine
     last_row = df.iloc[-1]
     overnight_gap = last_row["overnight_gap"]
     volatility = last_row["volatility"]
@@ -89,7 +88,7 @@ def run_analysis(symbol, document, target_dir):
     
     # 7a. Panel 1: Price and Moving Averages
 
-    #slicing my data to reflect only the most recent 120 days to be shown on the chart
+    #Slicing my data to reflect only the most recent 120 days to be shown on the chart
     df_sliced = df.tail(250)
 
 
