@@ -1,7 +1,11 @@
+import os
+import sys
+
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from scraping import fetch_and_save_stock
 from analysis import run_analysis
 from datetime import date, timedelta
-import os
 from docx import Document
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from dotenv import load_dotenv
