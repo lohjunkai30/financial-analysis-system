@@ -7,7 +7,6 @@ import os
 
 
 # 1. Connecting the database to current python script using SQLAlchemy
-#DB_URL = "postgresql://postgres:Password335C@localhost:5432 python_finance_project"
 load_dotenv()
 DB_URL = os.getenv("DB_URL")
 engine = create_engine(DB_URL)
