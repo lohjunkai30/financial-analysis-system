@@ -37,9 +37,14 @@ These are the key features of my project:
 **Dynamic Reporting:** 
 1. Modularisation: Programme operates through a centralised exeuction script that bridges the ETL and analysis script. (Refer to "masterscript.py")
 
-2. Document Synthesis: Utilises **python-docx** to programmatically generate reports, embed visuals such as charts and insert analysis from the Quantitative Analysis Engine into a final Word report. To view the full template of the report, please refer to the documentation below:
+2. Document Synthesis: Utilises **python-docx** to programmatically generate reports, embed visuals such as charts and insert analysis from the Quantitative Analysis Engine into a final Word report.
 
-    - **[Template_of_Report](example_report/template_report)
+![Picture of template report](example_report/pic_template_report.png)
+
+
+To view the full template of the report, please refer to the documentation below:
+
+    - **[Template_of_Report](example_report/template_report)**
 
 
 ## Setup Instructions
