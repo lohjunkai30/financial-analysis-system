@@ -8,7 +8,6 @@ from docx.shared import Inches
 from dotenv import load_dotenv
 
 # 1. Database Connection
-#DB_URL = "postgresql://postgres:Password335C@localhost:5432/python_finance_project"
 load_dotenv()
 DB_URL = os.getenv("DB_URL")
 engine = create_engine(DB_URL)
