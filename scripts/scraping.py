@@ -17,14 +17,11 @@ def fetch_and_save_stock(ticker, start_date, end_date):
     # 2. Download data via yfinance
     df = yf.download(ticker, start=start_date, end=end_date)
 
-    # reformat the multi-indexed table
+    # Cleaning the data by flattening the MultiIndexed Table obtained (yfinance often returns nested columns)
     df.columns = df.columns.get_level_values(0)
-    
-    # Flatten the MultiIndex (yfinance often returns nested columns)
     df = df.reset_index()
     
-    # 3. Rename columns to match your SQL table exactly
-    # Map: 'Date' -> 'action_date', 'Close' -> 'close_price', etc.
+    # 3. Cleaning my date values to prepare them for entry into my SQL database
     df['Date'] = pd.to_datetime(df['Date']).dt.date
     df = df.rename(columns={
         'Date': 'action_date',
@@ -35,9 +32,9 @@ def fetch_and_save_stock(ticker, start_date, end_date):
         'Volume': 'volume'
     })
     
-    # Add the 'symbol' column which the API doesn't provide in the rows
+    # Inserted a column to show the name of the stock of each row
     df['symbol'] = ticker
-
+   
     # 4. Filter for only the columns we created in SQL
     cols = ['symbol', 'action_date', 'open_price', 'high_price', 'low_price', 'close_price', 'volume']
     df = df[cols]
@@ -54,4 +51,3 @@ def fetch_and_save_stock(ticker, start_date, end_date):
         print(f"Successfully saved {len(df)} rows to the database!")
     except Exception as e:
         print(f"Error: {e}")
-
